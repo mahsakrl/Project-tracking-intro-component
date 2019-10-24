@@ -1,0 +1,246 @@
+.wrapper {
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  height: 100%;
+  background: url(./images/gray_bg.png);
+  background-position: top right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+.container .text {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: center;
+  flex-flow: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: url(./images/gray_bg.png);
+  background-size: 50% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.container .text .upper-title {
+  padding: 10px;
+  padding-left: 250px;
+}
+.container .text .subtitle {
+  padding: 10px;
+  padding-left: 250px;
+}
+.container .text .title {
+  padding: 10px;
+  padding-left: 250px;
+}
+.container .text .btn {
+  padding: 10px;
+  padding-left: 250px;
+}
+.menu {
+  padding: 150px;
+  padding-top: 50px;
+}
+.menu ul li{
+  font-size: 24px;
+  font-weight: 800;
+
+}
+.logo {
+  padding: 150px;
+  padding-left: 250px;
+  padding-top: 50px;
+
+}
+ul li {
+  display: inline;
+  color: hsl(230, 29%, 20%);
+  padding: 10px;
+  font-family: "Barlow Condensed";
+  text-align: right;
+}
+li.active {
+  color: hsl(207, 33%, 95%);
+}
+.btn {
+  display: flex;
+  margin-top: 30px;
+}
+.btn-white {
+  color: hsl(231, 7%, 65%);
+  font-family: "Barlow Condense";
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-orange {
+  background-color: hsl(0, 100%, 68%);
+  font-family: "Barlow Condense";
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-family: "Barlow Condense";
+  font-size: 14px;
+  padding: 3px;
+  padding-right:9px;
+  padding-left:9px
+}
+.upper-title {
+  color: hsl(231, 7%, 65%);
+  font-family: "Barlow Condense";
+  font-size: 14px;
+  font-weight: 500;
+}
+.title {
+  color: hsl(230, 29%, 20%);
+  font-size: 90px;
+  font-weight: 800;
+  font-family: "Barlow Condense";
+}
+.subtitle {
+  color: hsl(231, 7%, 65%);
+  font-size: 18px;
+}
+.menu i {
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    padding-top: 30px;
+    width: 100% !important;
+    height: 100%;
+    padding: 1px;
+  }
+  .header .logo {
+    padding: 15px;
+  }
+  .header .menu {
+    padding: 15px;
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    background-size: 50% 50%;
+  }
+  .container .text {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .container .text .upper-title {
+    padding: 15px;
+  }
+  .container .text .subtitle {
+    padding: 15px;
+  }
+  .container .text .title {
+    padding: 15px;
+  }
+  .container .text .btn {
+    padding: 15px;
+  }
+  .illus-img img {
+    width: 100%;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  ul {
+    display: none;
+  }
+  .menu i {
+    display: inline;
+    font-size: 35px;
+  }
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .menu {
+    padding: 10px;
+  }
+  .logo {
+    padding: 10px;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

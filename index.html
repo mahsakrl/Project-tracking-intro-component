@@ -5,9 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./index.css">
-  <link href='https://fonts.google.com/specimen/Barlow+Condensed' rel='stylesheet'>
-  <link href='https://fonts.google.com/specimen/Barlow' rel='stylesheet'>
+  <link href="./index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <title>Frontend Mentor | Project tracking intro component</title>
@@ -16,11 +15,10 @@
 <body>
   <div class="wrapper">
     <div class="header">
-      <!-- 1 -->
       <div class="logo">
         <img src="./images/logo.svg">
+
       </div>
-      <!-- 2 -->
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -39,37 +37,31 @@
           <li>Features</li>
           <li>Pricing</li>
           <li class="active">Login</li>
-
         </ul>
       </div>
     </div>
     <div class="container">
-      
-      <!-- 4 -->
       <div class="illus-img">
         <img src="./images/illustration-devices.svg">
       </div>
-      <!-- 3 -->
       <div class="text">
-          <div class="upper-title"><span>New</span>Monograph &nbsp Dashboard</div>
-          <div class="title">Powerful insights <br>into your team</div>
-          <div class="subtitle">Project planning and time tracking for agile teams</div>
-          <div class="btn">
-            <div class="btn-orange">
-              Schedule a demo
-            </div>
-            <div class="btn-white">to see a live preview</div>
+        <div class="upper-title"><span>New</span>Monograph &nbsp Dashboard</div>
+        <div class="title">Powerful insights <br>into your team</div>
+        <div class="subtitle">Project planning and time tracking <br>for agile teams</div>
+        <div class="btn">
+          <div class="btn-orange">
+            SCHEDULE A DEMO
           </div>
+          <div class="btn-white">TO SEE A PREVIEW</div>
         </div>
+      </div>
     </div>
+    <!-- <footer>
+      challenge by <a href="https://www.frontendmentor.io/">Frontend Mentor</a>coded by <a
+        href="https://www.frontendmentor.io/profile/mahsakrl">mahsakrl</a>
+    </footer> -->
   </div>
   </div>
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
   <script>
     function openNav() {
       document.getElementById("myNav").style.width = "100%";

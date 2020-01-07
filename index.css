@@ -168,20 +168,6 @@ span {
   align-items: center;
   justify-content: center;
 }
-footer {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  color: hsl(229, 6%, 66%);
-}
-footer a {
-  color: hsl(230, 3%, 60%);
-  font-weight: bold;
-  text-decoration: none;
-}
-footer a:hover {
-  color: hsl(212, 86%, 64%);
-}
 .overlay {
   display: none;
 }

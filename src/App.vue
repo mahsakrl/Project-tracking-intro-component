@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="./index.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <title>Frontend Mentor | Project tracking intro component</title>
-</head>
-
-<body>
+<template>
   <div class="wrapper">
     <div class="header">
       <div class="logo">
-        <img src="./images/logo.svg">
+        <img src="./assets/images/logo.svg">
 
       </div>
       <div id="myNav" class="overlay">
@@ -42,10 +28,10 @@
     </div>
     <div class="container">
       <div class="illus-img">
-        <img src="./images/illustration-devices.svg">
+        <img src="./assets/images/illustration-devices.svg">
       </div>
       <div class="text">
-        <div class="upper-title"><span>New</span>Monograph &nbsp Dashboard</div>
+        <div class="upper-title"><span>New</span>Monograph & nbsp Dashboard</div>
         <div class="title">Powerful insights <br>into your team</div>
         <div class="subtitle">Project planning and time tracking <br>for agile teams</div>
         <div class="btn">
@@ -57,16 +43,7 @@
       </div>
     </div>
   </div>
-  </div>
-  <script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-  </script>
-</body>
-
-</html>
+</template>
+<style>
+@import url('./assets/style/index.css')
+</style>

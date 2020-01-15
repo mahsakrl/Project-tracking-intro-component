@@ -9,7 +9,7 @@
         <div class="overlay-content">
           <a href="#">Login</a>
           <a href="#">Pricing</a>
-          <a href="#">Features</a>
+          <a href="#">Feature</a>
           <a href="#">Product</a>
         </div>
       </div>
@@ -17,7 +17,7 @@
         <i class="material-icons" @click="openNav()">menu</i>
         <ul>
           <li>Product</li>
-          <li>Features</li>
+          <li>Feature</li>
           <li>Pricing</li>
           <li class="active">Login</li>
         </ul>

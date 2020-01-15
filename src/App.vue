@@ -48,7 +48,7 @@
   </div>
 </template>
 <style>
-@import url('./assets/style/index.css');
+@import url(./assets/style/index.css);
 </style>
 <script>
 export default {

@@ -53,14 +53,13 @@
 <script>
 export default {
   methods: {
-    openNav() {
+    openNav () {
       document.getElementById('myNav').style.width = '100%'
     },
 
-    closeNav() {
+    closeNav () {
       document.getElementById('myNav').style.width = '0%'
     }
   }
 }
 </script>
-

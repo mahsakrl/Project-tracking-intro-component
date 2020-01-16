@@ -421,16 +421,16 @@ span {
 }
 
 </style>
-<script>
-export default {
-  methods: {
-    openNav () {
-      document.getElementById('myNav').style.width = '100%'
-    },
+// <script>
+// export default {
+//   methods: {
+//     openNav () {
+//       document.getElementById('myNav').style.width = '100%'
+//     },
 
-    closeNav () {
-      document.getElementById('myNav').style.width = '0%'
-    }
-  }
-}
-</script>
+//     closeNav () {
+//       document.getElementById('myNav').style.width = '0%'
+//     }
+//   }
+// }
+// </script>

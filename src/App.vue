@@ -421,7 +421,7 @@ span {
 }
 
 </style>
-// <script>
+<script>
 // export default {
 //   methods: {
 //     openNav () {
@@ -433,4 +433,4 @@ span {
 //     }
 //   }
 // }
-// </script>
+</script>
